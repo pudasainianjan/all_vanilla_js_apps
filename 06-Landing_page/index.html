@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Landing Page</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgg2KWmUPjQylgNt-mVdLUtowtW4TCEDs8rw&usqp=CAU" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>My Landing Page</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nostrum?</p>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this landing page about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt dignissimos aperiam, modi doloremque harum consequuntur temporibus adipisci recusandae, asperiores ullam. Ullam autem ab adipisci obcaecati repellendus quisquam neque recusandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, cumque corrupti! Itaque sapiente hic veniam ullam nisi corporis sunt tempora?</p>
+        <h2>Tell Me More</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, tempore harum. Numquam, itaque sunt nobis fugit dolore est, quis qui odit in illum, perspiciatis a unde aspernatur cumque similique consequuntur quo mollitia blanditiis quas sit accusamus omnis adipisci non? In.</p>
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30Day MoneyBack</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, debitis aliquam blanditiis dolor ea sapiente at possimus iure suscipit! Dolor perspiciatis doloribus numquam repellendus optio recusandae error itaque minima eveniet maiores, amet iure neque nam beatae iusto sint qui nobis suscipit, incidunt provident pariatur non consectetur cumque totam! Aspernatur numquam aliquid sed eligendi id dolorum deleniti cumque iste esse asperiores facere architecto tempore, in placeat dicta commodi sequi molestiae aut.</p>
+    </div>
+
+    <!--* SignUp Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close"><i class="fa fa-times"></i></button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers,support and more...</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password" class="form-input">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
